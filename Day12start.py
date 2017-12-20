@@ -36,7 +36,7 @@ Team Elina
         date_text="{today.month}/{today.day}/{today.year}".format(today=today)
         detail["date"]=date_text
         if email != None:
-            detail["email"]:email
+            detail["email"]=email
             
         self.user_details.append(detail)
     def get_details (self):
